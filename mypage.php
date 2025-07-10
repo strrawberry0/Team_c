@@ -1,0 +1,109 @@
+<?php // PHP 파일로 변환됨 ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>마이 페이지</title>
+  <link rel="stylesheet" href="./css/mypage.css" />
+  <link rel="stylesheet" href="./css/font.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+
+<body>
+  <div id="my_form">
+    <div id="header">
+      <h1>마이페이지</h1>
+      <a href="/menu.html">
+        <i class="fa-solid fa-gear"></i>
+      </a>
+    </div>
+    <div id="profil_section">
+      <div id="profil">
+        <div id="profil_img"><img src="./img/Wkdrn.png" alt="" /></div>
+
+        <div id="profil_btn">
+          <div id="profil_name">박여진</div>
+          <ul>
+            <li><a href="#none">정보수정</a></li>
+            <li><a href="/buypage.html">이용권구매</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="profil_ticket"></div>
+    </div>
+    <div id="service_list">
+      <ul>
+        <li><a href="#none">회원 정보 수정</a></li>
+        <li class="sl"><a href="#none">라이센스 이용약관</a></li>
+      </ul>
+
+      <ul>
+        <li><a href="./ggcenter.html">고객센터</a></li>
+        <li class="sl"><a href="#none">이벤트</a></li>
+      </ul>
+
+      <ul id="my_social">
+        <li><a href="#none"><img src="./img/facebook.png" alt=""></a></li>
+        <li><a href="#none"><img src="./img/instagram.png" alt=""></a></li>
+        <li><a href="#none"><img src="./img/tiktok.png" alt=""></a></li>
+        <li><a href="#none"><img src="./img/twitter.png" alt=""></a></li>
+        <li class="socialbtn"><a href="/login.php">해지하기<button></button></li>
+      </ul>
+
+    <div class="spacebox"></div>
+      
+    </div>
+    <footer>
+      <div class="play">
+        <img src="./img/now1.png" alt="now1" />
+        <span>
+          <p>Midnight Rendezvous</p>
+          Casiopea
+        </span>
+        <button type="button" class="button">
+          <i class="fa-solid fa-backward-step"></i>
+          <i class="fa-solid fa-play"></i>
+          <i class="fa-solid fa-forward-step"></i>
+          <i class="fa-solid fa-indent"></i>
+        </button>
+      </div>
+      <div class="menu">
+        <div class="box1">
+          <a href="/category.html"><i class="fa-solid fa-layer-group"></i></a>
+        </div>
+        <div class="box2">
+          <a href="#none"><i class="fa-solid fa-folder-open"></i></a>
+        </div>
+        <div class="box3">
+          <a href="/index.html"><i class="fa-solid fa-house"></i></a>
+        </div>
+        <div class="box4">
+          <a href="/search.html"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </div>
+        <div class="box5">
+          <a href="/mypage.php"><i class="fa-solid fa-circle-user"></i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  </div>
+</body>
+
+</html>
