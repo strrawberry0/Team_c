@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>회원가입</title>
+    <link rel="stylesheet" href="./css/members.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="mobile-frame">
+      <h1>Stob,</h1>
+      <form class="signup-form">
+        <div class="signup-box">
+          <label for="member-id">아이디</label>
+          <div class="input-row">
+            <input
+              type="text"
+              id="member-id"
+              placeholder="아이디를 입력해주세요."
+              required
+            />
+            <button type="button" class="btn-check">중복 확인</button>
+          </div>
+          <label for="password">비밀번호</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="비밀번호를 입력해주세요."
+            required
+          />
+          <label for="password2">비밀번호 확인</label>
+          <input
+            type="password"
+            id="password2"
+            placeholder="비밀번호를 다시 입력해주세요."
+            required
+          />
+          <label for="code">인증번호</label>
+          <div class="input-row">
+            <input
+              type="text"
+              id="code"
+              placeholder="인증번호를 입력해주세요."
+              required
+            />
+            <button type="button" class="btn-send">전송</button>
+          </div>
+        </div>
+        <button type="submit" class="btn-signup">회원가입</button>
+
+        <div class="spacebox"></div>
+      </form>
+    </div>
+    <footer>
+      <!-- <div class="play">
+            <span>현재 재생중인 곡이 없습니다.</span>
+            <button type="button" class="button">
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-indent"></i>
+            </button>
+        </div> -->
+      <div class="menu">
+        <div class="box1">
+          <a href="/category.html"><i class="fa-solid fa-layer-group"></i></a>
+        </div>
+        <div class="box2">
+          <a href="#none"><i class="fa-solid fa-folder-open"></i></a>
+        </div>
+        <div class="box3">
+          <a href="/index.html"><i class="fa-solid fa-house"></i></a>
+        </div>
+        <div class="box4">
+          <a href="/search.html"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </div>
+        <div class="box5">
+          <a href="/mypage.html"><i class="fa-solid fa-circle-user"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

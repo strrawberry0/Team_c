@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  min-width: 393px;
+  max-width: 768px;
+  margin: 0 auto;
+  font-family: "Pretendard-Regular";
+  letter-spacing: -1px;
+}
+
+img,
+video {
+  max-width: 100%; /* 이미지와 비디오가 화면 너비를 초과하지 않도록 설정 */
+  height: auto;
+}
+
+#profil_section,
+#service_list {
+  margin: 0 20px;
+}
+
+#my_form {
+  height: 100vh;
+  background-color: #fff;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  height: 8vh;
+  padding: 30px 0 0 20px;
+  position: relative;
+}
+
+#header a i {
+  font-size: 25px;
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  color: #2b2b2b;
+}
+
+#profil_section {
+  height: 38vh;
+  position: relative;
+  top: 15px;
+}
+
+#profil {
+  display: flex;
+  padding: 20px 0;
+}
+
+#profil_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+#profil_img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+#profil_btn {
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  left: 130px;
+}
+
+#profil_btn ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 30px;
+}
+
+#profil_btn > ul > li {
+  width: 75px;
+  padding: 2px 5px 6px 5px;
+  background-color: #2b2b2b;
+  border-radius: 50px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#profil_btn > ul > li:nth-child(2) {
+  background-color: #e00;
+}
+
+#profil_btn > ul > li > a {
+  font-size: 13px;
+  color: #fff;
+}
+
+#profil_name {
+  width: 50vw;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+}
+
+#profil_ticket {
+  width: 100%;
+  height: 120px;
+  margin: 20px 0;
+  background-color: #ddd;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #2b2b2b;
+}
+
+#service_list {
+  height: 39vh;
+  margin-top: 70px;
+}
+
+#service_list > ul > li {
+  margin-bottom: 20px;
+}
+
+#service_list > ul > li > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2b2b2b;
+}
+
+#service_list > ul > .sl {
+  margin-bottom: 50px;
+}
+
+#my_social {
+  display: flex;
+  gap: 10px;
+}
+
+#my_social > li {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+#my_social img {
+  width: 40px;
+  height: 40px;
+}
+
+#my_social > .socialbtn {
+  width: 70px;
+  height: 30px;
+  border: 1px solid #2b2b2b;
+  padding: 3px 11px;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+#my_social > .socialbtn > a {
+  font-size: 14px;
+  color: #2b2b2b;
+}
+
+.spacebox {
+  width: 100%;
+  height: 140px;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 768px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  z-index: 20;
+  background-color: #2b2b2b;
+}
+
+footer .play {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  border-bottom: 1px solid #555;
+}
+
+footer .play span {
+  color: #999;
+}
+
+footer .play span p {
+  color: white;
+}
+
+footer .play img {
+  width: 65px;
+  height: 65px;
+  background-color: white;
+  margin: 0 15px 0 0;
+  border-right: 1px solid #666;
+}
+
+footer .play .button {
+  background-color: transparent;
+  position: absolute;
+  right: 25px;
+  display: flex;
+  gap: 20px;
+}
+
+footer .play .button i {
+  font-size: 20px;
+  color: white;
+}
+
+footer .menu {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .menu > div {
+  width: 150px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .menu > div i {
+  color: white;
+  font-size: 25px;
+}
